@@ -1871,7 +1871,63 @@
     }
 }
 
-// Hero CTA + social proof (TweetMax)
+// Hero two-column layout + CTA + social proof (TweetMax)
+.section-hero {
+    overflow: hidden;
+
+    .container {
+        overflow: hidden;
+    }
+}
+
+.hero-row {
+    row-gap: 48px;
+}
+
+.hero-visual {
+    display: flex;
+    justify-content: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+@include res(lg, min) {
+    .section-hero .hero-copy {
+        text-align: left;
+    }
+
+    .section-hero .hero-copy .text-change_wrap {
+        justify-content: flex-start;
+    }
+
+    .hero-cta-group {
+        align-items: flex-start;
+    }
+
+    .hero-social-proof {
+        align-items: flex-start;
+    }
+
+    .hero-visual {
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+        padding-right: 0;
+
+        img {
+            width: 130%;
+            max-width: none;
+            margin: 0;
+            object-fit: cover;
+            object-position: left center;
+        }
+    }
+}
+
 .hero-cta-group {
     margin-top: 40px;
     display: flex;
