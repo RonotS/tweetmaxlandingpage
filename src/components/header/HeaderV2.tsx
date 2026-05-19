@@ -22,7 +22,7 @@ export default function HeaderV2() {
                         <div className="col-5 col-lg-3">
                             <div className="header-left">
                                 <Link href="/" className="logo-site">
-                                    <Image width={120} height={20} src="/assets/images/logo/tmlogo.png" alt="LOGO" />
+                                    <Image width={90} height={20} src="/assets/images/logo/tmlogo.png" alt="LOGO" />
                                 </Link>
                             </div>
                         </div>

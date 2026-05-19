@@ -82,13 +82,13 @@
 // Spacing Section
 .section-hero {
     .sect-title {
-        padding-top: 219px;
+        padding-top: 64px;
         padding-bottom: 63px;
     }
 
     @include res(xl) {
         .sect-title {
-            padding-top: 88px;
+            padding-top: 48px;
             padding-bottom: 48px;
         }
     }
@@ -1868,6 +1868,90 @@
                 margin-bottom: 56px;
             }
         }
+    }
+}
+
+// Hero CTA + social proof (TweetMax)
+.hero-cta-group {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    .tf-btn {
+        min-width: 220px;
+    }
+}
+
+.hero-cta-microcopy {
+    color: var(--text-2);
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+
+.hero-social-proof {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero-avatar-pile {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+        margin-left: -10px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    .hero-avatar {
+        display: block;
+        width: 36px;
+        height: 36px;
+        border-radius: 999px;
+        border: 2px solid #000;
+        object-fit: cover;
+    }
+}
+
+.hero-social-proof_caption {
+    color: var(--text-2);
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.hero-social-proof_dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background-color: #22c55e;
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.7);
+    animation: heroProofPulse 1.6s ease-in-out infinite;
+}
+
+@keyframes heroProofPulse {
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.55;
+        transform: scale(0.85);
     }
 }
 

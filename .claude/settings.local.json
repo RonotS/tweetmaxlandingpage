@@ -5,7 +5,12 @@
       "Bash(./node_modules/.bin/tsc --noEmit)",
       "Bash(netstat -ano)",
       "PowerShell(Get-Process -Id 1956)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(echo \"TSC EXIT: $?\")",
+      "Bash(curl -s http://localhost:3000/)",
+      "Read(//tmp/**)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s http://localhost:3000/ -o landing.html)"
     ]
   }
 }

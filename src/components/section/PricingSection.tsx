@@ -9,7 +9,7 @@ export default function PricingSection() {
     return (
         <>
             <section className="section-pricing" id="pricing">
-                <SectHeader value={5} label="PRICING" />
+                <SectHeader value={4} label="PRICING" />
                 <span className="br-line"></span>
                 <SectTagline name={"PLANS FOR EVERY 𝕏 CREATOR."} />
                 <span className="br-line"></span>

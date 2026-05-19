@@ -4,16 +4,8 @@ export interface assitantsAiItem {
 }
 
 export const assitantsAiItems: assitantsAiItem[] = [
-    {
-        icon: "icon-like",
-        name: "Convert every reply.",
-    },
-    {
-        icon: "icon-arrow-circle",
-        name: "Automate every DM.",
-    },
-    {
-        icon: "icon-star",
-        name: "Capture every buyer.",
-    },
+    { icon: "", name: "Capture more users." },
+    { icon: "", name: "Convert your replies." },
+    { icon: "", name: "Automate your DMs." },
+    { icon: "", name: "Make more money." },
 ];

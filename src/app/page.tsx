@@ -1,9 +1,6 @@
 import HeroSection from "@components/section/HeroSection";
-import HeroVideo from "@components/layout/HeroVideo";
-import PauseSection from "@components/section/PauseSection";
 import FeatureSection from "@components/section/FeatureSection";
-import BenefitSection from "@components/section/BenefitSection";
-import HowToUseSection from "@components/section/HowToUseSection";
+import FeatureShowcaseSection from "@components/section/FeatureShowcaseSection";
 import PricingSection from "@components/section/PricingSection";
 import TestimonialSection from "@components/section/TestimonialSection";
 import FaqSection from "@components/section/FaqSection";
@@ -17,13 +14,10 @@ export default function Home() {
         <>
             <Layout showFooter={false}>
                 <HackerTextEffect />
-                <HeroVideo />
                 <span className="br-line"></span>
                 <HeroSection />
-                <PauseSection />
                 <FeatureSection />
-                <BenefitSection />
-                <HowToUseSection />
+                <FeatureShowcaseSection />
                 <PricingSection />
                 <TestimonialSection />
                 <FaqSection />

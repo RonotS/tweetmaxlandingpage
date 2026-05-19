@@ -42,9 +42,9 @@ export const metadata: Metadata = {
     robots: "index, follow",
     authors: [{ name: "TweetMax", url: "https://tweetmax.io" }],
     icons: {
-        icon: "/assets/images/logo/favicon.svg",
-        shortcut: "/assets/images/logo/favicon.svg",
-        apple: "/assets/images/logo/favicon.svg",
+        icon: "/assets/images/logo/favicon.png",
+        shortcut: "/assets/images/logo/favicon.png",
+        apple: "/assets/images/logo/favicon.png",
     },
 };
 export default function RootLayout({

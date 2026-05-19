@@ -10,7 +10,7 @@ export default function TestimonialSection() {
     return (
         <>
             <section className="section-testimonial">
-                <SectHeader value={6} label={"TESTIMONIALS"} />
+                <SectHeader value={5} label={"TESTIMONIALS"} />
                 <span className="br-line"></span>
                 <SectTagline name={"REAL FEEDBACK FROM 𝕏 CREATORS AND POWER USERS."} />
                 <span className="br-line"></span>

@@ -1,4 +1,3 @@
-import { SectHeader } from "@/src/components/section/SectHeader";
 import FooterColumn from "./FooterColumn";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,8 +6,6 @@ export default function Footer() {
     return (
         <>
             <footer className="tf-footer">
-                <SectHeader value={9} label="FOOTER" />
-                <span className="br-line"></span>
                 <FooterBody />
             </footer>
         </>
@@ -61,7 +58,7 @@ export function FooterInnerLink() {
             <div className="footer-inner_link tf-grid-layout tf-col-2 lg-col-4">
                 <div className="">
                     <Link href="/" className="footer-logo logo-site">
-                        <Image src="/assets/images/logo/logo.svg" alt="LOGO" width={75} height={20} className="lazyload" />
+                        <Image src="/assets/images/logo/tmfooter.png" alt="LOGO" width={75} height={20} className="lazyload" />
                     </Link>
                 </div>
 

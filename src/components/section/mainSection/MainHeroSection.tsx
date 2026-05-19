@@ -1,6 +1,10 @@
 "use client";
 import { assitantsAiItems } from "@/src/data/assitantsAi";
+import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
+
+const heroAvatars = ["avt-1.webp", "avt-2.webp", "avt-3.webp", "avt-4.webp", "avt-5.webp"];
 
 export function MainHeroSection() {
     const [index, setIndex] = useState(0);
@@ -18,7 +22,7 @@ export function MainHeroSection() {
                 <div className="container">
                     <div className="sect-title wow fadeInUp">
                         <h1 className="s-title font-3">
-                            Extract 10x More Value From Your 𝕏 Engagement. <br />
+                            Maximize Your 𝕏 Engagement. <br />
                             <div className="text-change_wrap">
                                 {assitantsAiItems.map((item, idx) => (
                                     <div key={idx} className={`text-change_rotating  ${idx === index ? "active" : ""}`}>
@@ -28,9 +32,35 @@ export function MainHeroSection() {
                             </div>
                         </h1>
                         <p className="s-sub_title">
-                            Convert replies into revenue and comments into clients, <br className="d-none d-sm-block" />
-    while AI handles the outreach grind for you.
+                            Create a system to reach your target audience <br className="d-none d-sm-block" />
+                            and turn their attention into conversions.
                         </p>
+
+                        <div className="hero-cta-group wow fadeInUp">
+                            <Link href="/get-started" className="tf-btn style-2 style-high animate-btn animate-dark">
+                                <span>Automate Your 𝕏 Now</span>
+                            </Link>
+                        </div>
+
+                        <div className="hero-social-proof wow fadeInUp">
+                            <ul className="hero-avatar-pile" aria-hidden="true">
+                                {heroAvatars.map((src) => (
+                                    <li key={src}>
+                                        <Image
+                                            src={`/assets/images/avatar/${src}`}
+                                            alt=""
+                                            width={36}
+                                            height={36}
+                                            className="hero-avatar"
+                                        />
+                                    </li>
+                                ))}
+                            </ul>
+                            <p className="hero-social-proof_caption text-caption font-2">
+                                <span className="hero-social-proof_dot" aria-hidden="true"></span>
+                                6,000+ creators automating their 𝕏 with TweetMax
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

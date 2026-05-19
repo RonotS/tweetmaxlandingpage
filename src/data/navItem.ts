@@ -33,6 +33,10 @@ export const navItems2: NavItem[] = [
         link: "about-us",
     },
     {
+        name: "Pricing",
+        link: "#pricing",
+    },
+    {
         name: "Contact Us",
         link: "contact-us",
     },

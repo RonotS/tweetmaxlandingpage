@@ -1,17 +1,17 @@
 import { SectHeader } from "@/src/components/section/SectHeader";
 import { SectTagline } from "@/src/components/section/SectTagline";
 import { SectBottom } from "@/src/components/section/SectBottom";
-import { MainHeroSection } from "./mainSection/MainHeroSection";
+import MainFeatureShowcaseSection from "./mainSection/MainFeatureShowcaseSection";
 
-export default function HeroSection() {
+export default function FeatureShowcaseSection() {
     return (
         <>
-            <section className="section-hero">
-                <SectHeader value={1} label={"HERO"} />
+            <section className="section-feature" id="showcase">
+                <SectHeader value={3} label={"SHOWCASE"} />
                 <span className="br-line"></span>
-                <SectTagline name={"YOUR ALL-IN-ONE 𝕏 ENGAGEMENT AUTOMATION PLATFORM"} />
+                <SectTagline name={"SEE TWEETMAX IN ACTION."} />
                 <span className="br-line"></span>
-                <MainHeroSection />
+                <MainFeatureShowcaseSection />
                 <span className="br-line"></span>
                 <SectBottom />
                 <span className="br-line"></span>
