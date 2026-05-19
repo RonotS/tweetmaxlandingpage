@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(netstat -ano)",
+      "PowerShell(Get-Process -Id 1956)",
+      "Bash(npm run *)"
+    ]
+  }
+}

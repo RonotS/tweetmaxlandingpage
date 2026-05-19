@@ -5,41 +5,42 @@ export interface FeatureTab {
     desc: string;
 }
 
+// Image filename convention: kebab-case of the tab id, saved as .png in
+// public/assets/images/section/. Drop screenshots in at the exact paths below.
+//   tweetAutomations    -> tweet-automations.png
+//   profileAutomations  -> profile-automations.png
+//   contentCalendar     -> content-calendar.png
+//   engagementAnalytics -> engagement-analytics.png
+//   integrations        -> integrations.png
 export const FeatureTabItems: FeatureTab[] = [
     {
         id: "tweetAutomations",
         title: "Tweet Automations",
-        img: "tweetmax-dashboard.png",
+        img: "tweet-automations.png",
         desc: "Schedule, queue, and auto-publish posts and threads. TweetMax handles long-form, drafts, and timing — so your feed stays alive while you don't.",
     },
     {
         id: "profileAutomations",
         title: "Profile Automations",
-        img: "image-enhance.webp",
-        desc: "Auto-follow, auto-reply, and auto-DM the right profiles. Every interaction routed to the right next step — without you touching the keyboard.",
+        img: "profile-automations.png",
+        desc: "Auto-follow, auto-reply, and route every interaction to the right next step — without you touching the keyboard.",
     },
     {
-        id: "autoDM",
-        title: "Auto DM & Auto Plug",
-        img: "video-creator.webp",
-        desc: "Turn replies into revenue. Trigger DMs and product plugs the second a user likes, replies, or retweets — capture intent at its peak.",
-    },
-    {
-        id: "calendar",
+        id: "contentCalendar",
         title: "Content Calendar",
-        img: "text-creator.webp",
+        img: "content-calendar.png",
         desc: "See every scheduled, published, and draft post on one calendar. Plan campaigns ahead and stay on rhythm without the spreadsheet juggling.",
     },
     {
-        id: "analytics",
+        id: "engagementAnalytics",
         title: "Engagement Analytics",
-        img: "code-composer.webp",
+        img: "engagement-analytics.png",
         desc: "Track likes, retweets, replies, and auto-DMs sent on every post. Know which tweets actually move the needle — and double down on them.",
     },
     {
         id: "integrations",
         title: "Integrations",
-        img: "website-builder.webp",
+        img: "integrations.png",
         desc: "Plug TweetMax into the tools you already use. Connect your 𝕏 account, your CRM, and your funnel — close the loop on every interaction.",
     },
 ];
