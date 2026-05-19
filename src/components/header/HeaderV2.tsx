@@ -22,7 +22,7 @@ export default function HeaderV2() {
                         <div className="col-5 col-lg-3">
                             <div className="header-left">
                                 <Link href="/" className="logo-site">
-                                    <Image width={90} height={20} src="/assets/images/logo/tmlogo.png" alt="LOGO" />
+                                    <Image width={120} height={20} src="/assets/images/logo/tmlogo.png" alt="LOGO" />
                                 </Link>
                             </div>
                         </div>
@@ -32,10 +32,10 @@ export default function HeaderV2() {
                         <div className="col-7 col-lg-3">
                             <div className="header-right">
                                 <div className="btn_group">
-                                    <Link href="/login" className="tf-btn text-body-3 animate-btn d-none d-sm-flex">
+                                    <Link href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn text-body-3 animate-btn d-none d-sm-flex">
                                         Sign Up
                                     </Link>
-                                    <Link href="/get-started" className="tf-btn text-body-3 style-2 animate-btn animate-dark">
+                                    <Link href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn text-body-3 style-2 animate-btn animate-dark">
                                         Get started
                                     </Link>
                                     <button type="button" className="btn-menu_mobile d-lg-none" onClick={onOpenMenu}>

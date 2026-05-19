@@ -37,7 +37,7 @@ export function MainHeroSection() {
                         </p>
 
                         <div className="hero-cta-group wow fadeInUp">
-                            <Link href="/get-started" className="tf-btn style-2 style-high animate-btn animate-dark">
+                            <Link href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn style-2 style-high animate-btn animate-dark">
                                 <span>Automate Your 𝕏 Now</span>
                             </Link>
                         </div>

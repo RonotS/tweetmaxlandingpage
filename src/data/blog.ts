@@ -31,7 +31,7 @@ export const blogItems: BlogItem[] = [
                 link_tag: "#",
             },
             {
-                name_tag: "Qore",
+                name_tag: "TweetMax",
                 link_tag: "#",
             },
         ],
@@ -50,7 +50,7 @@ export const blogItems: BlogItem[] = [
                 link_tag: "#",
             },
             {
-                name_tag: "Qore",
+                name_tag: "TweetMax",
                 link_tag: "#",
             },
             {
@@ -77,7 +77,7 @@ export const blogItems: BlogItem[] = [
                 link_tag: "#",
             },
             {
-                name_tag: "Qore",
+                name_tag: "TweetMax",
                 link_tag: "#",
             },
         ],
@@ -150,7 +150,7 @@ export const sidebarTags = [
 
     {
         link: "#",
-        name: "Qore",
+        name: "TweetMax",
     },
     {
         link: "#",

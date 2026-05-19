@@ -23,7 +23,7 @@ export default function BenefitSectionV2() {
                                     Backed by cutting-edge AI.
                                 </h2>
                                 <p className="s-sub_title">
-                                    Qore combines powerful AI models with a unified creative workspace <br className="d-none d-lg-block" />— built for
+                                    TweetMax combines powerful AI models with a unified creative workspace <br className="d-none d-lg-block" />— built for
                                     speed, clarity, and control.
                                 </p>
                             </div>

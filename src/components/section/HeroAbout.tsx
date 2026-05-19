@@ -20,17 +20,17 @@ export default function HeroAbout() {
                                     creation platform
                                 </h2>
                                 <p className="s-sub_title">
-                                    From visuals to code, Qore gives you a full creative suite powered by <br className="d-none d-md-block" />
+                                    From visuals to code, TweetMax gives you a full creative suite powered by <br className="d-none d-md-block" />
                                     the latest multi-model AI — all in one place.
                                 </p>
                             </div>
                             <div className="image px-16 px-lg-0">
-                                <Image loading="lazy" width={1078} height={606} src="/assets/images/section/hero-about.png" alt="Image" />
+                                <Image loading="lazy" width={1078} height={606} src="/assets/images/section/tweetmax-fade.png" alt="TweetMax dashboard" />
                             </div>
                         </div>
                         <div className="col-lg-4 offset-lg-1">
                             <div className="px-16 px-lg-0">
-                                <p className="text-caption caption font-2 text-main-2">ABOUT QORE</p>
+                                <p className="text-caption caption font-2 text-main-2">ABOUT TWEETMAX</p>
                                 <div className="rate-per">
                                     <Image loading="lazy" width={90} height={16} src="/assets/images/item/star-rate.png" alt="Image" />
                                     <p className="text-main-3">

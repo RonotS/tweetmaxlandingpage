@@ -12,7 +12,7 @@ export default function NavMobileV2({ isOpen, onClose }: { isOpen: boolean; onCl
                         <Image width={75} height={20} src="/assets/images/logo/logo.svg" alt="LOGO" />
                     </div>
                     <div className="btn_group">
-                        <Link href="/get-started" className="tf-btn style-2">
+                        <Link href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn style-2">
                             Get started
                         </Link>
                         <span className="icon-close-popup" onClick={onClose}>
@@ -62,7 +62,7 @@ export default function NavMobileV2({ isOpen, onClose }: { isOpen: boolean; onCl
                 </div>
 
                 <div className="canvas-footer">
-                    <Link href="/login" className="tf-btn w-100 animate-btn style-high">
+                    <Link href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn w-100 animate-btn style-high">
                         Sign Up
                     </Link>
                 </div>

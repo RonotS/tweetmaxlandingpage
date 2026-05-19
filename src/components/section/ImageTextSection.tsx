@@ -24,7 +24,7 @@ export default function ImageTextSection() {
                                             Discover proven strategies to identify and overcome the <br className="d-none d-sm-block" />
                                             limitations that are holding you back
                                         </p>
-                                        <a href="#" className="tf-btn text-body-3 style-2 style-high-2 animate-btn animate-dark">
+                                        <a href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn text-body-3 style-2 style-high-2 animate-btn animate-dark">
                                             Get started now
                                         </a>
                                     </div>

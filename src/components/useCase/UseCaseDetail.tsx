@@ -85,7 +85,7 @@ export default function UseCaseDetail() {
                                                 </li>
                                                 <li>
                                                     <Link href="#" className="text-body-3 link">
-                                                        Qore
+                                                        TweetMax
                                                     </Link>
                                                 </li>
                                             </ul>

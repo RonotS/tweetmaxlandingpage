@@ -14,7 +14,7 @@ export default function FaqSectionV2() {
             <section className="section-faq flat-spacing-3">
                 <div className="container">
                     <h2 className="s-title only-title ol-tt-2 font-3 text-linear text-center px-16">
-                        Qore and <br />
+                        TweetMax and <br />
                         frequently asked questions
                     </h2>
                     <div className="row">

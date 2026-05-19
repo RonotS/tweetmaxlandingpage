@@ -1,4 +1,3 @@
-import Map from "@/src/components/common/Map";
 import Layout from "@/src/components/layout/Layout";
 import BreakSection from "@/src/components/section/BreakSection";
 import ContactSection from "@/src/components/section/ContactSection";
@@ -12,12 +11,6 @@ export default function PageContact() {
             <Layout>
                 <PageTitle name="CONTACT" />
                 <ContactSection />
-                <BreakSection />
-                <section className="section-map flat-spacing-3">
-                    <div className="container">
-                        <Map />
-                    </div>
-                </section>
                 <BreakSection />
                 <GetSection />
                 <BreakSection />
