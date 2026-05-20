@@ -1898,23 +1898,38 @@
     }
 }
 
+// Stack the rotating phrases as a single-cell CSS grid so every phrase
+// occupies the exact same box. No absolute positioning, no inline-flex
+// quirks — text-align/justify-self handles centering perfectly, and the
+// opacity/blur transition still works because all items overlap.
+.section-hero .hero-copy .text-change_wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.section-hero .hero-copy .text-change_rotating {
+    position: static;
+    grid-column: 1;
+    grid-row: 1;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    transform: none;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    // Small left padding to optically align the rotating phrases with the
+    // centered title above — counteracts the slight visual lean from the
+    // gradient mask / letter shapes.
+    padding-left: 12px;
+}
+
 @include res(lg, min) {
-    .section-hero .hero-copy {
-        text-align: left;
-    }
-
-    .section-hero .hero-copy .text-change_wrap {
-        justify-content: flex-start;
-    }
-
-    .hero-cta-group {
-        align-items: flex-start;
-    }
-
-    .hero-social-proof {
-        align-items: flex-start;
-    }
-
     .hero-visual {
         justify-content: flex-start;
         align-items: center;
