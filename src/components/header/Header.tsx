@@ -42,7 +42,7 @@ export function HeaderLeft() {
         <>
             <div className="header-left">
                 <Link href="/" className="logo-site">
-                    <Image width={75} height={20} src="/assets/images/logo/tmlogo1.png" alt="LOGO" />
+                    <Image width={75} height={20} src="/assets/images/logo/tm-logo.png" alt="LOGO" />
                 </Link>
             </div>
         </>
@@ -93,7 +93,7 @@ export function MobileMenu({ isOpen, onClose }: { isOpen: boolean; onClose: () =
             <div className={`offcanvas offcanvas-start canvas-mb ${isOpen ? "show" : ""}`} id="mobileMenu">
                 <div className="canvas-header">
                     <div className="logo-site">
-                        <Image width={75} height={20} src="/assets/images/logo/tmlogo1.png" alt="LOGO" />
+                        <Image width={75} height={20} src="/assets/images/logo/tm-logo.png" alt="LOGO" />
                     </div>
                     <div className="btn_group">
                         <Link href="/" className="tf-btn style-2">
