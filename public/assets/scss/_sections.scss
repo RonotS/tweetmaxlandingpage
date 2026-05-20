@@ -1875,8 +1875,11 @@
 .section-hero {
     overflow: hidden;
 
+    // Clip at the container's content edge (which aligns with .line_page)
+    // instead of its padding box, so the hero image doesn't bleed past the
+    // white vertical border line.
     .container {
-        overflow: hidden;
+        clip-path: inset(0 16px 0 16px);
     }
 }
 

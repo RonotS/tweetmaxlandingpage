@@ -45,7 +45,7 @@ export function MainPricingSection() {
                                         </div>
                                         <p className="plan-description">{plan.description}</p>
                                         <Link href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className={classNames("tf-btn style-high animate-btn w-100", plan.buttonClass)}>
-                                            <span className="text-body-3">Start free trial</span>
+                                            <span className="text-body-3">Get 7 Days Free</span>
                                         </Link>
                                     </div>
 

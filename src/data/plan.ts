@@ -19,7 +19,7 @@ export const plans: Plan[] = [
     {
         id: "core",
         name: "Core Plan",
-        price: "$19",
+        price: "$39",
         duration: "per month",
         description: "Everything you need to start automating your 𝕏 engagement.",
         buttonClass: "style-3",
@@ -34,7 +34,7 @@ export const plans: Plan[] = [
     {
         id: "pro",
         name: "Pro Plan",
-        price: "$39",
+        price: "$99",
         duration: "per month",
         description: "Scale your outreach across multiple accounts and unlimited posts.",
         buttonClass: "style-2",
@@ -50,7 +50,7 @@ export const plans: Plan[] = [
     {
         id: "enterprise",
         name: "Enterprise",
-        price: "$99",
+        price: "$199",
         duration: "per month",
         description: "Maximum throughput for agencies and power creators.",
         buttonClass: "style-3",
