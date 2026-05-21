@@ -76,8 +76,8 @@ export function FooterInnerLink() {
                 <FooterColumn
                     title="Legals"
                     links={[
-                        { label: "Privacy Policy", href: "#" },
-                        { label: "Terms & Conditions", href: "#" },
+                        { label: "Privacy Policy", href: "/privacy-policy" },
+                        { label: "Terms & Conditions", href: "/terms-and-conditions" },
                     ]}
                 />
 
@@ -86,8 +86,6 @@ export function FooterInnerLink() {
                     className="mx-auto m-sm-0"
                     links={[
                         { label: "Twitter (X)", href: "#" },
-                        { label: "Github", href: "#" },
-                        { label: "LinkedIn", href: "#" },
                     ]}
                 />
             </div>

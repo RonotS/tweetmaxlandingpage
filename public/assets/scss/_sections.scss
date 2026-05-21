@@ -2029,6 +2029,79 @@
     }
 }
 
+// Legal pages (Privacy Policy, Terms & Conditions)
+.section-legal {
+    color: var(--text-2);
+}
+
+.legal-doc {
+    line-height: 1.65;
+
+    &__header {
+        margin-bottom: 32px;
+    }
+
+    &__meta {
+        margin-top: 12px;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+    }
+
+    &__intro {
+        display: block;
+        text-align: left;
+        margin: 0;
+
+        p {
+            margin-bottom: 12px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__divider {
+        margin: 32px 0;
+    }
+
+    &__section {
+        margin-bottom: 32px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-bottom: 12px;
+            color: var(--white);
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+
+        ul {
+            list-style: disc outside;
+            padding-left: 24px;
+            margin: 0 0 12px;
+
+            li {
+                margin-bottom: 8px;
+            }
+        }
+
+        strong {
+            color: var(--white);
+        }
+
+        .link {
+            text-decoration: underline;
+        }
+    }
+}
+
 .section-inner-page {
     .tf-grid-layout {
         gap: 32px 12px;

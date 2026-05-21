@@ -8,49 +8,49 @@ export const boxIconTextProps: BoxIconTextProp[] = [
     {
         image_icon: "platform.svg",
         title: "All-in-one platform",
-        sub_title: "No more juggling tools. TweetMax unifies content, design, code, and video.",
+        sub_title: "No more juggling tabs. TweetMax unifies scheduling, replies, DMs, and analytics.",
     },
     {
         image_icon: "ai-core.svg",
-        title: "Multi-model AI core",
-        sub_title: "ChatGPT, Claude, Gemini — TweetMax picks the smartest engine for every task.",
+        title: "Auto-DM engine",
+        sub_title: "Fire personalized DMs the second a user likes, replies, or retweets your posts.",
     },
     {
         image_icon: "control.svg",
-        title: "Prompt-level control",
-        sub_title: "Every feature is prompt-optimized, giving you control without overwhelm.",
+        title: "Trigger-level control",
+        sub_title: "Define exactly what fires on each interaction — control without the overwhelm.",
     },
     {
         image_icon: "speed.svg",
         title: "Speed that scales",
-        sub_title: "From solo to teams, TweetMax delivers fast outputs — even under heavy loads.",
+        sub_title: "From solo to teams, TweetMax fires outreach within seconds of every interaction.",
     },
     {
         image_icon: "secure.svg",
         title: "Secure by design",
-        sub_title: "Your content and code stay private. We never store sensitive data.",
+        sub_title: "Your account and audience stay protected. We never store or share your data.",
     },
     {
         image_icon: "evolving.svg",
         title: "Always evolving",
-        sub_title: "TweetMax improves weekly with better prompts, UI, and models — for free.",
+        sub_title: "TweetMax ships weekly improvements to automations, dashboards, and integrations — free.",
     },
 ];
 
 export const boxIconTextProps2: BoxIconTextProp[] = [
     {
         image_icon: "setting.svg",
-        title: "Request Demo",
-        sub_title: "TweetMax improves weekly with better prompts, UI, and models — for free.",
+        title: "Request a demo",
+        sub_title: "See how TweetMax automates your 𝕏 outreach end to end — book a 15-minute walkthrough.",
     },
     {
         image_icon: "support.svg",
-        title: "Online support",
-        sub_title: "Need help? Our support team is available to answer of 24x7.",
+        title: "Customer support",
+        sub_title: "Need help with your automations or account? Our support team replies within one business day.",
     },
     {
         image_icon: "partner.svg",
-        title: "Partnership",
-        sub_title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis mauris nec.",
+        title: "Partnerships",
+        sub_title: "Run an agency or 𝕏 creator community? Let's talk about co-marketing and revenue-share deals.",
     },
 ];

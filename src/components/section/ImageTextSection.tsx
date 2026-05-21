@@ -17,19 +17,19 @@ export default function ImageTextSection() {
                                     </div>
                                     <div className="content">
                                         <h3 className="title text-linear font-3">
-                                            Ready to Power Up <br className="d-none d-sm-block" />
-                                            Your Creativity?
+                                            Ready to 10x <br className="d-none d-sm-block" />
+                                            Your 𝕏 Engagement?
                                         </h3>
                                         <p className="sub-title">
-                                            Discover proven strategies to identify and overcome the <br className="d-none d-sm-block" />
-                                            limitations that are holding you back
+                                            Capture every reply, DM the right buyer, and grow on autopilot <br className="d-none d-sm-block" />
+                                            — all from one TweetMax dashboard.
                                         </p>
                                         <a href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn text-body-3 style-2 style-high-2 animate-btn animate-dark">
                                             Get started now
                                         </a>
                                     </div>
                                     <div className="image">
-                                        <Image width={498} height={308} src="/assets/images/section/build-in/build-1.jpg" alt="Image" />
+                                        <Image width={498} height={308} src="/assets/images/section/profile-automations.png" alt="TweetMax profile automations dashboard" />
                                     </div>
                                 </div>
                             </div>

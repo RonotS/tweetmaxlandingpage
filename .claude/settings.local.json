@@ -10,7 +10,9 @@
       "Bash(curl -s http://localhost:3000/)",
       "Read(//tmp/**)",
       "Bash(node -e ' *)",
-      "Bash(curl -s http://localhost:3000/ -o landing.html)"
+      "Bash(curl -s http://localhost:3000/ -o landing.html)",
+      "WebFetch(domain:www.notion.so)",
+      "Bash(curl -s http://localhost:3000/privacy-policy -o privacy.html)"
     ]
   }
 }
