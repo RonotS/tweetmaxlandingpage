@@ -36,7 +36,7 @@ const grotesk = localFont({
 });
 
 export const metadata: Metadata = {
-    title: "TweetMax — Extract 10x More Value From Your 𝕏 Engagement",
+    title: "TweetMax — Maximize Your 𝕏 Engagement",
     description: "TweetMax turns replies into revenue and comments into clients. Automate outreach on 𝕏 24/7 — capture every interested buyer the second they interact.",
     keywords: ["TweetMax", "X automation", "Twitter automation", "Auto DM", "Tweet scheduler", "X growth"],
     robots: "index, follow",
