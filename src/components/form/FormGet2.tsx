@@ -66,7 +66,7 @@ export default function FormGet2() {
                         <label className="label-text text-body-3 text-white" htmlFor="message">
                             Message
                         </label>
-                        <textarea id="message" name="message" placeholder="Message" required></textarea>
+                        <textarea id="message" name="message" placeholder="info@tweetmax.io" required></textarea>
                     </fieldset>
                 </div>
                 <button type="submit" className="tf-btn text-body-3 style-2 animate-btn animate-dark style-high">

@@ -29,7 +29,7 @@ export default function ImageTextSection() {
                                         </a>
                                     </div>
                                     <div className="image">
-                                        <Image width={498} height={308} src="/assets/images/section/profile-automations.png" alt="TweetMax profile automations dashboard" />
+                                        <Image width={498} height={308} src="/assets/images/section/cta-dashboard.png" alt="TweetMax dashboard" />
                                     </div>
                                 </div>
                             </div>

@@ -18,11 +18,11 @@ export const faqItems: faqItem[] = [
     },
     {
         title: "How fast do automations fire?",
-        label: "DMs, replies, and other triggers fire within seconds of the interaction — capturing intent while the user is still in the conversation.",
+        label: "TweetMax polls 𝕏 every 5 minutes, so a triggered DM or reply lands within that window of the interaction.",
     },
     {
         title: "What if I want to pause everything?",
-        label: "One toggle pauses every active automation. You can edit, disable, or delete any trigger at any time without losing your data or history.",
+        label: "One toggle pauses every active automation at any time. Heads-up: posts can't be edited after they're published, so review your queue before it goes live.",
     },
 ];
 

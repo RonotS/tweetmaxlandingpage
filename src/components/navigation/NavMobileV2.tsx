@@ -9,10 +9,16 @@ export default function NavMobileV2({ isOpen, onClose }: { isOpen: boolean; onCl
             <div className={`offcanvas offcanvas-start canvas-mb ${isOpen ? "show" : ""}`} id="mobileMenu">
                 <div className="canvas-header">
                     <div className="logo-site">
-                        <Image width={75} height={20} src="/assets/images/logo/logo.svg" alt="LOGO" />
+                        <Image width={110} height={20} src="/assets/images/logo/tm-logo.png" alt="TweetMax" />
                     </div>
                     <div className="btn_group">
-                        <Link href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn style-2">
+                        <Link
+                            href="https://app.tweetmax.io"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="tf-btn style-2"
+                            onClick={onClose}
+                        >
                             Get started
                         </Link>
                         <span className="icon-close-popup" onClick={onClose}>
@@ -28,7 +34,11 @@ export default function NavMobileV2({ isOpen, onClose }: { isOpen: boolean; onCl
                         {navItems2.map((item, idx) => (
                             <li className="nav-mb-item" key={idx}>
                                 {!item.subMenu ? (
-                                    <Link href={item.link} className="mb-menu-link">
+                                    <Link
+                                        href={item.link.startsWith("#") || item.link.startsWith("/") ? item.link : `/${item.link}`}
+                                        className="mb-menu-link"
+                                        onClick={onClose}
+                                    >
                                         <span>{item.name}</span>
                                     </Link>
                                 ) : (
@@ -47,7 +57,7 @@ export default function NavMobileV2({ isOpen, onClose }: { isOpen: boolean; onCl
                                             <ul className="sub-nav-menu">
                                                 {item.subMenu.map((sub, subIdx) => (
                                                     <li key={subIdx}>
-                                                        <Link href={`/${sub.subLink}`} className="sub-nav-link">
+                                                        <Link href={`/${sub.subLink}`} className="sub-nav-link" onClick={onClose}>
                                                             {sub.subName}
                                                         </Link>
                                                     </li>
@@ -62,7 +72,13 @@ export default function NavMobileV2({ isOpen, onClose }: { isOpen: boolean; onCl
                 </div>
 
                 <div className="canvas-footer">
-                    <Link href="https://app.tweetmax.io" target="_blank" rel="noopener noreferrer" className="tf-btn w-100 animate-btn style-high">
+                    <Link
+                        href="https://app.tweetmax.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="tf-btn w-100 animate-btn style-high"
+                        onClick={onClose}
+                    >
                         Sign Up
                     </Link>
                 </div>

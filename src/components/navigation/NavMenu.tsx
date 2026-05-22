@@ -41,7 +41,7 @@ export default function NavMenu() {
                     {navItems2.map((item, idx) => (
                         <li className="menu-item" key={idx}>
                             <Link
-                                href={item.link === "/" ? "/" : `/${item.link}`}
+                                href={item.link.startsWith("/") || item.link.startsWith("#") ? item.link : `/${item.link}`}
                                 className="item-link tf-btn style-transparent text-body-3 animate-btn"
                             >
                                 {item.name}

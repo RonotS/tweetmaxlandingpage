@@ -34,7 +34,7 @@ export const navItems2: NavItem[] = [
     },
     {
         name: "Pricing",
-        link: "#pricing",
+        link: "/#pricing",
     },
     {
         name: "Contact Us",
