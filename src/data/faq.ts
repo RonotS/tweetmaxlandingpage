@@ -9,6 +9,10 @@ export const faqItems: faqItem[] = [
         label: "Schedule posts and threads, auto-reply to comments, auto-DM users who interact with your content, and track engagement — all from one dashboard.",
     },
     {
+        title: "How long does it take to get my first automation running?",
+        label: "Literally two minutes. Once you link your account, you can instantly build a workflow — like triggering an automatic DM when someone comments on a specific post — and have it live immediately.",
+    },
+    {
         title: "Is TweetMax free to use?",
         label: "TweetMax offers a free tier so you can try the core automations. Paid plans unlock higher limits, advanced triggers, and team features.",
     },
@@ -22,7 +26,7 @@ export const faqItems: faqItem[] = [
     },
     {
         title: "What if I want to pause everything?",
-        label: "One toggle pauses every active automation at any time. Heads-up: posts can't be edited after they're published, so review your queue before it goes live.",
+        label: "TweetMax includes a simple on/off toggle switch. If you ever need to take a break or adjust your strategy, you can turn your active automations off and back on instantly with a single click. (Just keep in mind that posts already published to 𝕏 cannot be edited or retracted, so make sure to double-check your queue before switching things back on!)",
     },
 ];
 

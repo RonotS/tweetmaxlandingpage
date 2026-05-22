@@ -69,7 +69,7 @@ export function FormGet() {
         <form className="form-get" action={handleSubmit}>
             <div className="form-content">
                 <fieldset>
-                    <input type="email" name="email" placeholder="Enter your email" required />
+                    <input type="email" name="email" placeholder="info@tweetmax.io" required />
                 </fieldset>
                 <button className="tf-btn style-2 style-high animate-btn" type="submit">
                     <span>Submit</span>
