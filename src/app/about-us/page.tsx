@@ -15,10 +15,12 @@ export default function PageAboutUs() {
                 <BreakSection />
                 <BenefitSectionV2 />
                 <BreakSection />
-                <section className="section-testimonial tes-2 flat-spacing-3">
-                    <MainTestimonialSection />
-                </section>
-                <BreakSection />
+                <div className="d-none d-lg-block">
+                    <section className="section-testimonial tes-2 flat-spacing-3">
+                        <MainTestimonialSection />
+                    </section>
+                    <BreakSection />
+                </div>
                 <ImageTextSection />
             </Layout>
         </>

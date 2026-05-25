@@ -1633,6 +1633,17 @@
             object-fit: cover;
             min-height: 350px;
         }
+
+        // Mobile: the dashboard hero is wide (1078x606), so the desktop's
+        // min-height + object-fit:cover crops the sides. Let it scale
+        // proportionally below md instead.
+        @include res(md) {
+            img {
+                min-height: 0;
+                height: auto;
+                object-fit: contain;
+            }
+        }
     }
 
     .rate-per {

@@ -37,12 +37,13 @@ export const FeatureTabItems: FeatureTab[] = [
         img: "engagement-analytics.png",
         desc: "Track likes, retweets, replies, and auto-DMs sent on every post. Know which tweets actually move the needle — and double down on them.",
     },
-    {
-        id: "integrations",
-        title: "Integrations",
-        img: "integrations.png",
-        desc: "Plug TweetMax into the tools you already use. Connect your 𝕏 account, your CRM, and your funnel — close the loop on every interaction.",
-    },
+    // Integrations tab hidden until the product is live. Uncomment to restore.
+    // {
+    //     id: "integrations",
+    //     title: "Integrations",
+    //     img: "integrations.png",
+    //     desc: "Plug TweetMax into the tools you already use. Connect your 𝕏 account, your CRM, and your funnel — close the loop on every interaction.",
+    // },
 ];
 
 export const featureTabItems2 = [

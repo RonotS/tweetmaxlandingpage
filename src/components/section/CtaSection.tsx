@@ -32,7 +32,7 @@ export function MainCtaSection() {
                 <div className="container">
                     <div className="sect-title wow fadeInUp">
                         <h2 className="s-title font-3">
-                            Ready to 10x Your <br />
+                            Ready to Maximize Your <br />
                             𝕏 Engagement?
                         </h2>
                         <p className="s-sub_title">
