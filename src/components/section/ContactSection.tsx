@@ -26,7 +26,10 @@ export default function ContactSection() {
                                         <p className="sub-title text-body-3">{item.sub_title}</p>
                                     </div>
                                     <div className="d-flex">
-                                        <Link href="#" className="tf-btn text-body-3 animate-btn style-high-2">
+                                        <Link
+                                            href={item.href ?? "mailto:info@tweetmax.io"}
+                                            className="tf-btn text-body-3 animate-btn style-high-2"
+                                        >
                                             Talk to us
                                         </Link>
                                     </div>

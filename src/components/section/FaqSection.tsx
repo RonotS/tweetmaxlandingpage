@@ -11,7 +11,7 @@ export default function FaqSection() {
     return (
         <>
             <section className="section-faq" id="FAQs">
-                <SectHeader value={6} label={"FAQS"} />
+                <SectHeader value={5} label={"FAQS"} />
                 <span className="br-line"></span>
                 <SectTagline name={"ANSWERS TO YOUR COMMON QUESTIONS."} />
                 <span className="br-line"></span>

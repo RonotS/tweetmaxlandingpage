@@ -2,6 +2,7 @@ export interface BoxIconTextProp {
     image_icon: string;
     title: string;
     sub_title: string;
+    href?: string;
 }
 
 export const boxIconTextProps: BoxIconTextProp[] = [
@@ -42,15 +43,18 @@ export const boxIconTextProps2: BoxIconTextProp[] = [
         image_icon: "setting.svg",
         title: "Request a demo",
         sub_title: "See how TweetMax automates your 𝕏 outreach end to end — book a 15-minute walkthrough.",
+        href: "mailto:info@tweetmax.io?subject=Demo%20request",
     },
     {
         image_icon: "support.svg",
         title: "Customer support",
         sub_title: "Need help with your automations or account? Our support team replies within one business day.",
+        href: "mailto:info@tweetmax.io?subject=Support%20request",
     },
     {
         image_icon: "partner.svg",
         title: "Partnerships",
         sub_title: "Run an agency or 𝕏 creator community? Let's talk about co-marketing and revenue-share deals.",
+        href: "mailto:info@tweetmax.io?subject=Partnership%20inquiry",
     },
 ];

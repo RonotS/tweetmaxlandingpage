@@ -17,7 +17,7 @@ export default function ImageTextSection() {
                                     </div>
                                     <div className="content">
                                         <h3 className="title text-linear font-3">
-                                            Ready to 10x <br className="d-none d-sm-block" />
+                                            Ready to Maximize <br className="d-none d-sm-block" />
                                             Your 𝕏 Engagement?
                                         </h3>
                                         <p className="sub-title">

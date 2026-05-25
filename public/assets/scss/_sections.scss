@@ -248,6 +248,36 @@
     }
 }
 
+// Tight marketing intro for the Features section: stacks three copy blocks
+// inside a single .sect-title so the section's heavy 48px/86px padding
+// doesn't repeat between them.
+.feature-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+
+    @include res(md) {
+        gap: 40px;
+    }
+}
+
+.feature-intro__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+
+    .s-sub_title {
+        margin: 0;
+    }
+}
+
+.feature-intro__shout {
+    margin: 8px 0 0;
+    letter-spacing: 0.04em;
+}
+
 .orther-overlay {
     position: absolute;
     inset: 0;
