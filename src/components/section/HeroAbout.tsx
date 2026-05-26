@@ -37,7 +37,7 @@ export default function HeroAbout() {
                                         <span className="fw-bold text-main-5">(4.9/</span>.5.0)
                                     </p>
                                 </div>
-                                <h5 className="title-2 text-linear-2 font-3">From 6,000+ creators growing on 𝕏</h5>
+                                <h5 className="title-2 text-linear-2 font-3">Join the next wave of creators growing on 𝕏</h5>
                             </div>
                         </div>
                         <div className="col-lg-5 offset-lg-1">
