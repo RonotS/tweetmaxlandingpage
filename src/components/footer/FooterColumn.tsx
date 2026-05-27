@@ -16,13 +16,20 @@ const FooterColumn: React.FC<FooterColumnProps> = ({ title, links, className = "
         <div className={`footer-col-block align-items-start ${className}`}>
             <h5 className="footer-heading footer-heading-mobile font-2">{title}</h5>
             <ul className="footer-menu-list">
-                {links.map((link, index) => (
-                    <li key={index}>
-                        <Link href={link.href} className="link text-main-2">
-                            {link.label}
-                        </Link>
-                    </li>
-                ))}
+                {links.map((link, index) => {
+                    const isExternal = /^https?:\/\//i.test(link.href);
+                    return (
+                        <li key={index}>
+                            <Link
+                                href={link.href}
+                                className="link text-main-2"
+                                {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                            >
+                                {link.label}
+                            </Link>
+                        </li>
+                    );
+                })}
             </ul>
         </div>
     );

@@ -95,6 +95,8 @@
     top: 0;
     left: -100%;
     opacity: 0.6;
+    // Stop the shine overlay from swallowing taps on mobile browsers.
+    pointer-events: none;
 }
 
 button.animate-btn::after,

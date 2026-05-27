@@ -85,7 +85,7 @@ export function FooterInnerLink() {
                     title="Social"
                     className="mx-auto m-sm-0"
                     links={[
-                        { label: "Twitter (X)", href: "#" },
+                        { label: "Twitter (X)", href: "https://x.com/TweetMaxIO" },
                     ]}
                 />
             </div>

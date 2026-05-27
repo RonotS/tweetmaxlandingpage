@@ -1,6 +1,5 @@
 import { boxIconTextProps2 } from "@/src/data/boxIconText";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ContactSection() {
     return (
@@ -26,12 +25,17 @@ export default function ContactSection() {
                                         <p className="sub-title text-body-3">{item.sub_title}</p>
                                     </div>
                                     <div className="d-flex">
-                                        <Link
+                                        {/*
+                                         * Plain <a> (not next/link) — mailto: URLs need the OS to
+                                         * pick up the click; next/link's client-side router can
+                                         * swallow it on mobile browsers.
+                                         */}
+                                        <a
                                             href={item.href ?? "mailto:info@tweetmax.io"}
                                             className="tf-btn text-body-3 animate-btn style-high-2"
                                         >
                                             Talk to us
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

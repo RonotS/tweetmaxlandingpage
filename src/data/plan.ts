@@ -56,8 +56,8 @@ export const plans: Plan[] = [
         buttonClass: "style-3",
         image: "/assets/images/section/color-bg-3.webp",
         features: [
-            { text: "15,000 auto DMs per month" },
             { text: "Up to 3 connected accounts" },
+            { text: "15,000 auto DMs per month" },
             { text: "Unlimited scheduled posts" },
             { text: "Full engagement analytics" },
         ],
